@@ -2,13 +2,22 @@
 import "../styles/Services.css";
 import Card from "../components/Section/Card";
 import Card2 from "../components/Section/Card2";
+import aircraft_image from "../assets/aircraft_insurance.JPG";
+import car_image from "../assets/car_accident.JPG";
+import engineering_image from "../assets/engineering_insurance.JPG";
+import finance_image from "../assets/finance_insurance.jpg";
+import fire_image from "../assets/fire.JPG";
+import group_image from "../assets/group_personal_accident.JPG";
+import life_image from "../assets/life&health.JPG";
+import marine_image from "../assets/marine.JPG";
+
 
 function Services() {
  
   return (
     <div className="services-page">
       <div className="services">
-        <h1>Our Insurance Services</h1>
+        <h1>OUR INSURANCE SERVICES</h1>
         
 
          <div className="services-container">
@@ -17,6 +26,7 @@ function Services() {
           <Card2 title="Property Insurance">
             
             <ul>
+              <img src={fire_image} alt="Card" className="card-image" />
               <li>Fire with allied perils & H.H Comprehensive </li>
               <p>Earth Quake, Storm, Tempts, Floods, Strike Riots, MD, Explosion, Spontaneous combustion, aerial drops, Impact damage, Bursting of pipes, Subsistance</p>
               <li>Bulglary & All Risks</li>
@@ -24,16 +34,13 @@ function Services() {
               <li>Motor Insurance for;</li>
               <p>commercial vehicles of tankers, trucks & trailers;</p>
               <p>private motor for all types of passagenger cars</p>
-              <li>Marine</li>
-              <p>marine cargo and hull,</p>
-              <li>Inland Transit with BSG (Bandits, shifta & Buerilla) </li>
-              <li>Political Violence & Terrorism(PVT)</li>
+              
             </ul>
           </Card2>
 
           <Card2 title="Engineering Insurance">
-            
-            <ul>
+            <img src={engineering_image} alt="Card" className="card-image" />
+            <ul>             
               <li>Construction All Risks (CAR) </li>
               <li>Erection All Risk (EAR)</li>
               <li>Contractor Plant & Machinery (CPM)</li>
@@ -45,7 +52,7 @@ function Services() {
           </Card2>
 
           <Card2 title="Financial Matters">
-            
+            <img src={finance_image} alt="Card" className="card-image" />
             <ul>
               <li>Pecuniary Insurance for </li>
               <li>Business Interruption</li>
@@ -63,7 +70,9 @@ function Services() {
           </Card2>
 
           <Card2 title="Liability Insurance">
+            <img src={group_image} alt="Card" className="card-image" />
            <p>General Public Liability against</p>
+           
             <ul>
               <li>Personal Injury & Property damage </li>
               <li>Product Liability</li>
@@ -75,6 +84,7 @@ function Services() {
           </Card2>
 
           <Card2 title="Life & Health Insurance">
+            <img src={life_image} alt="Card" className="card-image" />
             
             <ul>
               <li>Group Personal Accident (GPA) [death, disability]</li>
@@ -84,11 +94,21 @@ function Services() {
             </ul>
           </Card2>
 
+          <Card2 title="Marine Insurance">
+            <img src={marine_image} alt="Card" className="card-image" />
+            <ul>             
+              
+              <li>marine cargo and hull,</li>
+              <li>Inland Transit with BSG (Bandits, shifta & Buerilla) </li>
+              <li>Political Violence & Terrorism(PVT)</li>
+            </ul>
+          </Card2>
+
           
           
 
            </div>
-            <h1>Approach in Carrying Out Our Services</h1>
+            <h2 style={{ backgroundColor: "yellow"}}>Approach in Carrying Out Our Services</h2>
            <div className="card-grid">
             
               <Card2 title="Analyze">
@@ -112,8 +132,8 @@ function Services() {
               </Card2>
            </div>
 
-           <h1>Advantages of using our expertise</h1>
-           <ul>
+           <h2 style={{ backgroundColor: "yellow"}}>Advantages of using our expertise</h2>
+           <ul className="custom-list">
             <li>Meaningful premiums savings will be made</li>
             <li>Timely placement of risks will be guaranteed</li>
             <li>Reviewing policies and endorsements for proper values in line with prevailing inflation in the country</li>

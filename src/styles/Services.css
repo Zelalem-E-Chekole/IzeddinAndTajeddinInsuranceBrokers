@@ -16,3 +16,8 @@ ul {
   text-align: left;
   font-size: 18px;
 }
+
+.custom-list {
+  list-style-type: square;   /* disc | circle | square | none */
+  padding-left: 20px;
+}

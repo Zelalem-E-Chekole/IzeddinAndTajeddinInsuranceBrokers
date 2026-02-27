@@ -6,14 +6,16 @@ import {
   LocationOn, 
   Facebook, 
   Twitter, 
-  Instagram 
+  Instagram, 
+  Telegram,
+  LinkedIn
 } from "@mui/icons-material";
 import "../styles/Contact.css"; 
 
 function Contact() {
   return (
     <div className="contact-container">
-      <h1 className="contact-title">Contact Us</h1>
+      <h1 className="contact-title">CONTACT US</h1>
       
       {/* Contact Info */}
       <div className="contact-info">
@@ -47,15 +49,13 @@ function Contact() {
 
       {/* Social Media */}
       <div className="social-media">
-        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-          <Facebook className="social-icon facebook" />
+        <a href="https://t.me/IzuTajuInsuranceBrokers" target="_blank" rel="noopener noreferrer">
+          <Telegram className="social-icon telegram" />
         </a>
-        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-          <Twitter className="social-icon twitter" />
+        <a href="https://et.linkedin.com/in/izu-and-taju-insurance-brokers-p-5b0a4b371" target="_blank" rel="noopener noreferrer">
+          <LinkedIn className="social-icon linked_in" />
         </a>
-        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-          <Instagram className="social-icon instagram" />
-        </a>
+       
       </div>
     </div>
   );

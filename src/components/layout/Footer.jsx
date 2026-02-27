@@ -15,11 +15,8 @@ function Footer() {
                       <img src={logo} alt="Izeddin and Tajeddin Insurance Logo" />
                     </Link>
                   </div>
-          <p>
-            Trusted insurance brokerage providing reliable coverage
-            for individuals, families, and businesses.
-          </p>
-          <p>OUR MOTO IS "RELIABLE PROTECTION FOR THE PUBLIC!"</p>
+          
+          <p>OUR MOTO IS "RELIABLE PROTECTION FOR THE PUBLIC WITH QUALITY SERVICE!"</p>
         </div>
 
         {/* Quick Links */}
@@ -55,7 +52,7 @@ function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <p>© {new Date().getFullYear()} Izeddin and Tajeddin Insurance Brokers. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Izu and Taju Insurance Brokers. All rights reserved.</p>
       </div> 
     </footer>
   );

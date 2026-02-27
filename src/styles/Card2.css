@@ -11,7 +11,8 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: stretch;
+  align-items: flex-start;
+  align-self: start;
 
 
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
@@ -35,13 +36,27 @@
 
 .bold-list li {
   font-weight: bold;
+  
 }
 
 .card-container {
  display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 20px;    
+  gap: 20px;  
+  align-items: start;  
 }
+
+.card-image {
+  width: 100%;
+}
+
+.card-content {
+   text-align: justify;
+}
+
+
+
+
 
 
 

@@ -19,10 +19,10 @@ function Navbar() {
 
         {/* Desktop Menu */}
         <ul className={`nav-links ${menuOpen ? "active" : ""}`}>
-          <li><Link to="/" onClick={() => setMenuOpen(false)}>Home</Link></li>
-          <li><Link to="/about" onClick={() => setMenuOpen(false)}>About</Link></li>
-          <li><Link to="/services" onClick={() => setMenuOpen(false)}>Services</Link></li>
-          <li><Link to="/contact" onClick={() => setMenuOpen(false)}>Contact Us</Link></li>
+          <li className="nav-list"><Link to="/" onClick={() => setMenuOpen(false)}>Home</Link></li>
+          <li className="nav-list"><Link to="/about" onClick={() => setMenuOpen(false)}>About</Link></li>
+          <li className="nav-list"><Link to="/services" onClick={() => setMenuOpen(false)}>Services</Link></li>
+          <li className="nav-list"><Link to="/contact" onClick={() => setMenuOpen(false)}>Contact Us</Link></li>
           {/* <li>
             <Link to="/quote" className="quote-btn" onClick={() => setMenuOpen(false)}>
               Get a Quote

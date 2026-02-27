@@ -173,3 +173,11 @@
   padding: 20px;
 }
 
+.small-card, .testimonial {
+  background-color: #d6a965;
+}
+
+.step {
+  background-color: #d6a965;
+}
+
