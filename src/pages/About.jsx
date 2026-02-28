@@ -4,7 +4,7 @@ import Card from "../components/Section/Card";
 
 import vision_image from "../assets/vision.JPG";
 import mission_image from "../assets/mission.JPG";
-import value_image from "../assets/CoreValues3.PNG";
+import value_image from "../assets/CoreValues3.png";
 
 
 
