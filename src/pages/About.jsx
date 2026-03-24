@@ -4,7 +4,7 @@ import Card from "../components/Section/Card";
 
 import vision_image from "../assets/vision.JPG";
 import mission_image from "../assets/mission.JPG";
-import value_image from "../assets/CoreValues3.png";
+import value_image from "../assets/corevalues3.png";
 
 
 
@@ -45,7 +45,7 @@ function About() {
               
             </div>
 
-            <h2 style={{ backgroundColor: "yellow"}}>OUR PHILOSOPHY</h2>
+            <h2 style={{ backgroundColor: "yellow"}}>Our Philosophy</h2>
                <div className="card-grid">
               <Card title="Satisfying Clients" text="To work towards an utmost satisfaction of clients by taking care and meeting their interest at all times." />
                <Card title="Innovation" text="Flexibility in approach to innovate and to continuously deliver value added service by becoming more than getting the policies issued." />
