@@ -46,7 +46,7 @@ function Footer() {
           <h3>Contact Us</h3>
           <p>Email: itmibc@gmail.com</p>
           <p>Phone: +251 (116) 298-203</p>
-          <p>Address:  Sami Building 6th floor, Imperial, Addis Ababa</p>
+          <p>Address:  Sami Building 6th floor, No. 604 , Imperial, Addis Ababa</p>
         </div>
   
       </div>

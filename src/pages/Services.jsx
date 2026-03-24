@@ -18,12 +18,10 @@ function Services() {
     <div className="services-page">
       <div className="services">
         <h1>OUR INSURANCE SERVICES</h1>
-        
-
          <div className="services-container">
 
           <div className="card-grid">
-          <Card2 title="Property Insurance">
+          <Card2 title="PROPERTY INSURANCE">
             
             <ul>
               <img src={fire_image} alt="Card" className="card-image" />
@@ -38,7 +36,7 @@ function Services() {
             </ul>
           </Card2>
 
-          <Card2 title="Engineering Insurance">
+          <Card2 title="ENGINEERING INSURANCE">
             <img src={engineering_image} alt="Card" className="card-image" />
             <ul>             
               <li>Construction All Risks (CAR) </li>
@@ -51,7 +49,7 @@ function Services() {
             </ul>
           </Card2>
 
-          <Card2 title="Financial Matters">
+          <Card2 title="FINANCIAL INSURANCE">
             <img src={finance_image} alt="Card" className="card-image" />
             <ul>
               <li>Pecuniary Insurance for </li>
@@ -69,7 +67,7 @@ function Services() {
             </ul>
           </Card2>
 
-          <Card2 title="Liability Insurance">
+          <Card2 title="LIABILITY INSURANCE">
             <img src={group_image} alt="Card" className="card-image" />
            <p>General Public Liability against</p>
            
@@ -83,7 +81,7 @@ function Services() {
             </ul>
           </Card2>
 
-          <Card2 title="Life & Health Insurance">
+          <Card2 title="LIFE & HEALTH INSURANCE">
             <img src={life_image} alt="Card" className="card-image" />
             
             <ul>
@@ -94,11 +92,11 @@ function Services() {
             </ul>
           </Card2>
 
-          <Card2 title="Marine Insurance">
+          <Card2 title="MARINE INSURANCE">
             <img src={marine_image} alt="Card" className="card-image" />
             <ul>             
               
-              <li>marine cargo and hull,</li>
+              <li>Marine cargo and hull,</li>
               <li>Inland Transit with BSG (Bandits, shifta & Buerilla) </li>
               <li>Political Violence & Terrorism(PVT)</li>
             </ul>
@@ -108,7 +106,7 @@ function Services() {
           
 
            </div>
-            <h2 style={{ backgroundColor: "yellow"}}>Approach in Carrying Out Our Services</h2>
+            <h2 style={{ backgroundColor: "yellow"}}>APPROACH IN CARRYING OUT OUR SERVICES</h2>
            <div className="card-grid">
             
               <Card2 title="Analyze">
@@ -132,7 +130,7 @@ function Services() {
               </Card2>
            </div>
 
-           <h2 style={{ backgroundColor: "yellow"}}>Advantages of using our expertise</h2>
+           <h2 style={{ backgroundColor: "yellow"}}>ADVANTAGES OF USING OUR EXPERTISE</h2>
            <ul className="custom-list">
             <li>Meaningful premiums savings will be made</li>
             <li>Timely placement of risks will be guaranteed</li>
@@ -140,6 +138,10 @@ function Services() {
             <li>Claims or grievances will be settled faster and in a more fairly way without much delay</li>
             <li>Absorb all insurance headaches of the client enabling them to focus on their main duties</li>
             <li>Your insurance matters will be handled professionally to the best of your advantage, giving you a peaceful mind and adequate financial security</li>
+            <li>Advocating with insurance companies on behalf of our clients for better coverage and lower premiums</li>
+            <li>Upgrading the skills of our client's employees that would enable them to communicate with insurers at a similar wave length, which would inturn assist them in safeguarding the client's interests fully when clients or underwriting disputes arise</li>
+            <li>New laws and regulations passed by National Bank of Ethiopia would be disseminated periodically to clients as necessary</li>
+            <li>A proper "claim management program" would be devised and installed to enable the concerned employees of the clients to make an effective follow up of the claims lodged all the way up to settlement. IZU & TAJU will collaborate fully with the clients in running this program</li>
            </ul>
          </div>
       </div>

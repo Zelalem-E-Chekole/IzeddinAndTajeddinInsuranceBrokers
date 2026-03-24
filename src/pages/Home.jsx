@@ -33,24 +33,24 @@ function Home() {
 
       {/* SERVICES SECTION */}
       <section className="services">
-        <h2 style={{ backgroundColor: 'yellow'}}>Our Insurance Services</h2>
+        <h2 style={{ backgroundColor: 'yellow'}}>OUR INSURANCE SERVICES</h2>
         <div className="card-grid">
-          <Card2 title="Motor Insurance">
+          <Card2 title="MOTOR INSURANCE">
             <img src={car_image} alt="Card" className="card-image" />
             <p>Comprehensive and affordable coverage to keep you safe on the road.</p>
            
           </Card2>
-          <Card2 title="Property Insurance">
+          <Card2 title="PROPERTY INSURANCE">
             <img src={fire_image} alt="Card" className="card-image" />
             <p>Protect your home and valuables against unexpected damages.</p>
            
           </Card2>
-          <Card2 title="Health Insurance">
+          <Card2 title="HEALTH INSURANCE">
             <img src={life_image} alt="Card" className="card-image" />
             <p>Flexible health plans designed to support you and your family.</p>
            
           </Card2>
-          <Card2 title="Business Insurance">
+          <Card2 title="BUSINESS INSURANCE">
             <img src={finance_image} alt="Card" className="card-image" />
             <p>Customized policies to protect your business and employees.</p>
            
@@ -60,13 +60,13 @@ function Home() {
           
         </div>
         <div className="hero-buttons">
-            <Link to="/Services"><button className="primary-btn">Learn More</button></Link>
+            <Link to="/Services"><button className="primary-btn">LEARN MORE</button></Link>
           </div>
       </section>
 
       {/* WHY CHOOSE US */}
       <section className="why-us">
-        <h2 style={{ backgroundColor: 'yellow'}}>Why Choose Us?</h2>
+        <h2 style={{ backgroundColor: 'yellow'}}>WHY CHOOSE US?</h2>
         <div className="why-grid">
           <div className="small-card" >  
             <h3>✔ Trusted Advisors</h3>
@@ -90,9 +90,9 @@ function Home() {
       {/* ABOUT SECTION */}
       <section className="about">
         <div className="about-content">
-          <h2 style={{ backgroundColor: "yellow"}}>About Izu & Taju</h2>
+          <h2 style={{ backgroundColor: "yellow"}}>ABOUT IZU & TAJU</h2>
           <p>
-            Izu & Taju Insurance Brokers is dedicated to providing 
+            IZU & TAJU INSURANCE BROKERS (ITIB) is dedicated to providing 
             reliable insurance solutions with integrity and professionalism.
             We work closely with top insurance providers to ensure our clients 
             receive the best coverage options available.
@@ -102,7 +102,7 @@ function Home() {
 
       {/* PROCESS SECTION */}
       <section className="process">
-        <h2 style={{ backgroundColor: "yellow"}}>How It Works</h2>
+        <h2 style={{ backgroundColor: "yellow"}}>HOW IT WORKS</h2>
         <div className="process-steps">
           <div className="step">
             <span>1</span>
@@ -124,27 +124,44 @@ function Home() {
 
       {/* TESTIMONIALS */}
       <section className="testimonials">
-        <h2>What Our Clients Say</h2>
+        <h2 style={{ backgroundColor: "yellow"}}>WHAT OUR CLIENTS SAY</h2>
         <div className="testimonial-grid">
           <div className="testimonial">
             <p>
-              "Some testimonial. Excellent service and very professional team. They helped me find
-              the perfect insurance plan."
+              "Testify that they have a long standing excellent business relationship with IZU & TAJU"
             </p>
-            <h4>- Name</h4>
+            
           </div>
           <div className="testimonial">
             <p>
-              "Some testimonial. Highly recommended! Fast response and great pricing."
+              "Acknowledge that the broking firm has superior professional excellence and capacity, headed by seasoned management."
             </p>
-            <h4>- Name</h4>
+           
+          </div>
+          <div className="testimonial">
+            <p>
+              "Confirm that clients dealing with IZU & TAJU are in good hands."
+            </p>
+           
+          </div>
+          <div className="testimonial">
+            <p>
+              "Ascertain the firm's high reputation towards fulfilling its clients needs and supporting the insurance industry in general."
+            </p>
+           
+          </div>
+          <div className="testimonial">
+            <p>
+              "Recognize IZU & TAJU for their consistent integrity, transparency, and dedication to protecting clients’ interests."
+            </p>
+           
           </div>
         </div>
       </section>
 
       {/* CALL TO ACTION */}
       <section className="cta">
-        <h2>Ready to Get Protected?</h2>
+        <h2>READY TO GET PROTECTED?</h2>
         <p>Contact us today for a personalized insurance quote.</p>
          <Link to="/Contact"><button className="primary-btn">Contact Us</button></Link>
       </section>
