@@ -1,3 +1,23 @@
+/* PREVENT PAGE OVERFLOW */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* GLOBAL PAGE CONTAINER */
+.section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 .home-container {
   padding: 40px;
 }
@@ -12,12 +32,15 @@
   margin-top: 20px;
 }
 
+.logo img {
+  margin-top: 30px;
+}
 /* GENERAL */
 .home {
   font-family: Arial, sans-serif;
   color: #333;
+  overflow-x: hidden;
 }
-
 /* HERO */
 .hero {
   background: linear-gradient(to right, #003366, #0059b3);
@@ -181,3 +204,84 @@
   background-color: #d6a965;
 }
 
+/* =========================
+   SERVICES SLIDER
+========================= */
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+/* SLIDER */
+.services-slider {
+  display: flex;
+  gap: 20px;
+
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+
+  width: 100%;
+  padding: 10px 0;
+}
+
+/* EACH CARD */
+.services-slider > * {
+  flex: 0 0 280px;
+  max-width: 280px;
+}
+
+/* CARD IMAGE SIZE */
+.card-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* ARROW BUTTONS */
+.slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  z-index: 100;
+
+  width: 45px;
+  height: 45px;
+
+  border: none;
+  border-radius: 50%;
+
+  background-color: #ff9900;
+  color: white;
+
+  font-size: 28px;
+  font-weight: bold;
+
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: 0.3s ease;
+}
+
+.slider-btn:hover {
+  background-color: #003366;
+}
+
+/* LEFT ARROW */
+.slider-btn.left {
+  left: 5px;
+}
+
+/* RIGHT ARROW */
+.slider-btn.right {
+  right: 5px;
+}

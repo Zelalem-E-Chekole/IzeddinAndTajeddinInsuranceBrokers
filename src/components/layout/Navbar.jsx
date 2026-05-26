@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import "../../styles/Navbar.css" 
-import logo from "../../assets/logo.JPG";
+import logo from "../../assets/logo5.JPG";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -15,6 +15,7 @@ function Navbar() {
           <Link to="/">
             <img src={logo} alt="Izeddin and Tajeddin Insurance Logo" />
           </Link>
+          <h2>Izu & Taju Insurance Brokers</h2>
         </div>
 
         {/* Desktop Menu */}

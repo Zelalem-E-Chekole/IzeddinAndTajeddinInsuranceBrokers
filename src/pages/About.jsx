@@ -13,7 +13,7 @@ function About() {
     <div>
       <h1>ABOUT US</h1>
 
-      <h3>Izeddin and Tajeddin, Insurance Brokers licensed by the National Bank of Ethiopia, have been delivering reliable insurance brokerage and consultancy services for over 20 years. Our expert team offers customized solutions in Property, Liability, Auto, Life, Travel, Marine, Health, pecuinary, Engineering and more, ensuring comprehensive coverage and efficient claim settlement services.</h3>
+      <h3>Izu & Taju Insurance Brokers licensed by the National Bank of Ethiopia, have been delivering reliable insurance brokerage and consultancy services for over 20 years. Our expert team offers customized solutions in Property, Liability, Auto, Life, Travel, Marine, Health, pecuinary, Engineering and more, ensuring comprehensive coverage and efficient claim settlement services.</h3>
     
 
       <div className="about-container">
